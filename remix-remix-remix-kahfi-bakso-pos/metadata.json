@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix KAHFI BAKSO POS",
+  "description": "Aplikasi Kasir, Manajemen Operasional \u0026 Laporan Harian Kadai Bakso Kahfi",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

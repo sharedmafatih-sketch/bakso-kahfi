@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14532d"/>
+      <stop offset="100%" stop-color="#166534"/>
+    </linearGradient>
+    <linearGradient id="bowl" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="210" fill="#ffffff" opacity="0.08"/>
+  <!-- Steam lines -->
+  <path d="M210 140 Q 200 110, 215 80" stroke="#fef08a" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <path d="M256 130 Q 246 95, 266 70" stroke="#fef08a" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.95"/>
+  <path d="M302 140 Q 312 110, 298 80" stroke="#fef08a" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <!-- Meatballs -->
+  <circle cx="210" cy="210" r="48" fill="#92400e"/>
+  <circle cx="210" cy="210" r="40" fill="#b45309"/>
+  <circle cx="256" cy="180" r="54" fill="#78350f"/>
+  <circle cx="256" cy="180" r="45" fill="#92400e"/>
+  <circle cx="305" cy="215" r="46" fill="#92400e"/>
+  <circle cx="305" cy="215" r="38" fill="#b45309"/>
+  <!-- Garnish green onion -->
+  <circle cx="230" cy="190" r="6" fill="#22c55e"/>
+  <circle cx="270" cy="175" r="7" fill="#22c55e"/>
+  <circle cx="285" cy="205" r="6" fill="#4ade80"/>
+  <!-- Bowl -->
+  <path d="M120 220 Q 120 370, 256 370 Q 392 370, 392 220 Z" fill="url(#bowl)"/>
+  <!-- Bowl Base -->
+  <ellipse cx="256" cy="380" rx="90" ry="20" fill="#b45309"/>
+  <!-- Text KAHFI BAKSO -->
+  <text x="256" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="900" fill="#fef08a" text-anchor="middle" letter-spacing="2">KAHFI BAKSO</text>
+  <text x="256" y="480" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="4">POINT OF SALE</text>
+</svg>
